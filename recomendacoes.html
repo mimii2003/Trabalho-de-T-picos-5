@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="questions.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div id="question-1" class="question-page">
+            <h1>Em qual zona de BH você mora?</h1>
+            <div class="zones">
+                <div class="zone-box" onclick="selectZone('Centro-Sul')">
+                    <span>Centro-Sul</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectZone('Venda Nova')">
+                    <span>Venda Nova</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectZone('Norte')">
+                    <span>Norte</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectZone('Leste')">
+                    <span>Leste</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectZone('Oeste')">
+                    <span>Oeste</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectZone('Barreiro')">
+                    <span>Barreiro</span>
+                    <div class="check-mark">✔</div>
+                </div>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar" onclick="nextQuestion()">
+                    <div class="progress" style="width:20%"></div>
+                </div>
+                <p class="progress-text">Pergunta <span id="current-question">1</span> de 20</p>
+            </div>
+        </div>
+
+        <div id="question-2" class="question-page" style="display: none;">
+            <h1>Bairros da zona: <span id="selected-zone"></span></h1>
+            <div id="bairros-list" class="zones"></div>
+
+            <div class="progress-container">
+                <div class="progress-bar" onclick="nextQuestion()">
+                    <div class="progress" style="width: 40%"></div>
+                </div>
+                <p class="progress-text">Pergunta <span id="current-question">2</span> de 20</p>
+            </div>
+        </div>
+
+        <div id="question-3" class="question-page" style="display: none;">
+            <h1>Selecione uma categoria para o ponto turístico:</h1>
+            <div id="categories-list" class="zones">
+                <div class="zone-box" onclick="selectCategory('Natural')">
+                    <span>Natural</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectCategory('Cultural')">
+                    <span>Cultural</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectCategory('Gastronomia')">
+                    <span>Gastronomia</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectCategory('Compras')">
+                    <span>Compras</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectCategory('Entretenimento e Lazer')">
+                    <span>Entretenimento e Lazer</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectCategory('Realizações Técnicas e Científicas')">
+                    <span>Realizações Técnicas e Científicas</span>
+                    <div class="check-mark">✔</div>
+                </div>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar" onclick="nextQuestion()">
+                    <div class="progress" style="width: 60%"></div>
+                </div>
+                <p class="progress-text">Pergunta <span id="current-question">3</span> de 20</p>
+            </div>
+        </div>
+
+        <div id="question-4" class="question-page" style="display: none;">
+            <h1>Você prefere atrações pagas ou gratuitas?</h1>
+            <div class="zones">
+                <div class="zone-box" onclick="selectAttraction('Paga')">
+                    <span>Paga</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectAttraction('Gratuita')">
+                    <span>Gratuita</span>
+                    <div class="check-mark">✔</div>
+                </div>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar" onclick="nextQuestion()">
+                    <div class="progress" style="width: 80%"></div>
+                </div>
+                <p class="progress-text">Pergunta <span id="current-question">4</span> de 20</p>
+            </div>
+        </div>
+
+        <div id="question-5" class="question-page" style="display: none;">
+            <h1>Qual horário do dia você prefere?</h1>
+            <div class="zones">
+                <div class="zone-box" onclick="selectTime('Manhã')">
+                    <span>Manhã</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectTime('Tarde')">
+                    <span>Tarde</span>
+                    <div class="check-mark">✔</div>
+                </div>
+                <div class="zone-box" onclick="selectTime('Noite')">
+                    <span>Noite</span>
+                    <div class="check-mark">✔</div>
+                </div>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar" onclick="nextQuestion()">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+                <p class="progress-text">Pergunta <span id="current-question">5</span> de 20</p>
+            </div>
+        </div>
+
+        <div id="suggestions" class="question-page" style="display: none;">
+            <h1>Sugestões de lugares em BH:</h1>
+            <div id="suggestion-list"></div>
+
+            <div class="progress-container">
+                <div class="progress-bar" onclick="finishSurvey()">
+                    <div class="progress" style="width: 30%"></div>
+                </div>
+                <p class="progress-text">Pergunta <span id="current-question">6</span> de 20</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedZone = '';
+        let selectedBairro = '';
+        let selectedCategory = '';
+        let selectedAttraction = '';
+        let selectedTime = '';
+        let questionNumber = 1;
+
+        const bairrosByZone = {
+            "Centro-Sul": ["Savassi", "Funcionários", "Anchieta", "Lourdes"],
+            "Venda Nova": ["Venda Nova", "Nova Gameleira", "Piratininga"],
+            "Norte": ["Coração Eucarístico", "Lagoinha", "Floresta"],
+            "Leste": ["Santo Antônio", "Floresta", "Itapuã"],
+            "Oeste": ["Cruz do Machado", "Bairro São Bento", "Carajás"],
+            "Barreiro": ["Barreiro", "Santa Terezinha"]
+        };
+
+        const attractions = {
+            "Paga": [
+                "Museu de Artes e Ofícios",
+                "Museu Clube da Esquina",
+                "Palácio das Artes"
+            ],
+            "Gratuita": [
+                "Praça da Liberdade",
+                "Parque Municipal Américo Renné Giannetti",
+                "Praça do Papa"
+            ]
+        };
+
+        const timeSuggestions = {
+            "Manhã": [
+                "Praça do Papa",
+                "Parque Municipal"
+            ],
+            "Tarde": [
+                "Museu de Artes",
+                "Mercado Central"
+            ],
+            "Noite": [
+                "Savassi",
+                "Praça da Liberdade"
+            ]
+        };
+
+        function nextQuestion() {
+            questionNumber++;
+            updateQuestionVisibility();
+            updateProgress();
+        }
+
+        function updateQuestionVisibility() {
+            for (let i = 1; i <= 5; i++) {
+                const question = document.getElementById(`question-${i}`);
+                question.style.display = (i === questionNumber) ? 'block' : 'none';
+            }
+            if (questionNumber > 5) {
+                showSuggestions();
+            }
+        }
+
+        function updateProgress() {
+            const progress = document.querySelector('.progress');
+            const progressText = document.querySelector('.progress-text');
+            const percent = (questionNumber / 5) * 100;
+            progress.style.width = `${percent}%`;
+            progressText.innerHTML = `Pergunta <span id="current-question">${questionNumber}</span> de 5`;
+        }
+
+        function selectZone(zone) {
+            selectedZone = zone;
+            document.getElementById('selected-zone').innerText = zone;
+            displayBairros();
+            nextQuestion();
+        }
+
+        function displayBairros() {
+            const bairrosList = bairrosByZone[selectedZone];
+            const bairrosContainer = document.getElementById('bairros-list');
+            bairrosContainer.innerHTML = '';
+            bairrosList.forEach(bairro => {
+                bairrosContainer.innerHTML += `
+                    <div class="zone-box" onclick="selectBairro('${bairro}')">
+                        <span>${bairro}</span>
+                        <div class="check-mark">✔</div>
+                    </div>
+                `;
+            });
+        }
+
+        function selectBairro(bairro) {
+            selectedBairro = bairro;
+            nextQuestion();
+        }
+
+        function selectCategory(category) {
+            selectedCategory = category;
+            nextQuestion();
+        }
+
+        function selectAttraction(type) {
+            selectedAttraction = type;
+            nextQuestion();
+        }
+
+        function selectTime(time) {
+            selectedTime = time;
+            nextQuestion();
+        }
+
+        function showSuggestions() {
+
+            let suggestions = [...attractions[selectedAttraction], ...timeSuggestions[selectedTime]];
+            suggestions = [...new Set(suggestions)]; // Remove duplicates
+
+            const surveyResults = {
+                zone: selectedZone,
+                bairro: selectedBairro,
+                category: selectedCategory,
+                attraction: selectedAttraction,
+                time: selectedTime,
+                suggestions: suggestions
+            };
+
+            localStorage.setItem('surveyResults', JSON.stringify(surveyResults));
+
+            setTimeout(() => {
+                window.location.href = 'descricao.html'; // Página de descrição (substitua o nome pelo correto)
+            }, 2000); // 2 segundos de delay
+        }
+
+
+        function finishSurvey() {
+            alert('Pesquisa finalizada!');
+        }
+
+        updateQuestionVisibility();
+    </script>
+</body>
+
+</html>

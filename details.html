@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Local</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="details.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="conheca.html">Conheça BH</a>
+                    <a class="nav-link" href="recomendacoes.html">Recomendações</a>
+                    <a class="nav-link" href="favorite.html">Favoritos</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <button class="btn btn-secondary mb-4" onclick="goBack()">Voltar</button>
+        <div id="place-details" class="card shadow-lg">
+        </div>
+    </div>
+
+    <script>
+        const places = [
+            {
+                name: "Museu de Artes e Ofícios",
+                description: "Horário: 9:00 - 17:00. Entrada: R$20",
+                imageUrl: "assets/image.png",
+                address: "Praça Rui Barbosa, Centro, BH",
+                category: "Cultural",
+                coordinates: { lat: -19.9167, lng: -43.9345 }
+            },
+            {
+                name: "Museu Clube da Esquina",
+                description: "Horário: 10:00 - 18:00. Entrada: R$15",
+                imageUrl: "assets/image copy.png",
+                address: "Rua Paraisópolis, Santa Tereza, BH",
+                category: "Entretenimento e Lazer",
+                coordinates: { lat: -19.9296, lng: -43.9221 }
+            },
+            {
+                name: "Palácio das Artes",
+                description: "Horário: 8:00 - 16:00. Entrada: Grátis",
+                imageUrl: "assets/image copy 2.png",
+                address: "Av. Afonso Pena, Centro, BH",
+                category: "Cultural",
+                coordinates: { lat: -19.9245, lng: -43.9378 }
+            }
+        ];
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const placeName = decodeURIComponent(urlParams.get('place'));
+        const place = places.find(p => p.name === placeName);
+        const placeDetails = document.getElementById('place-details');
+
+        if (place) {
+            placeDetails.innerHTML = `
+                <div class="card-body">
+                    <h1 class="card-title text-gradient">${place.name}</h1>
+                    <div class="image-container my-3">
+                        <img src="${place.imageUrl}" alt="${place.name}" class="img-fluid rounded shadow">
+                    </div>
+                    <p class="text-muted">${place.description}</p>
+                    <p><strong>Endereço:</strong> ${place.address}</p>
+                    <p><strong>Categoria:</strong> ${place.category}</p>
+                    <div class="d-flex gap-3 mt-3">
+                        <button class="btn btn-primary" onclick="redirectToMap('${place.name}')">Ver no Mapa</button>
+                        <button class="btn btn-warning" id="favorite-btn">Favoritar</button>
+                        <button class="btn btn-info" onclick="sharePlace('${place.name}', '${place.address}')">
+                            Compartilhar
+                        </button>
+                        <button class="btn btn-success" onclick="calculateDistance(${place.coordinates.lat}, ${place.coordinates.lng})">
+                            Calcular Distância
+                        </button>
+                    </div>
+                    <p class="mt-3" id="distance-info"></p>
+                </div>
+            `;
+
+            const favoriteBtn = document.getElementById('favorite-btn');
+            const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+
+            if (favorites.includes(place.name)) {
+                favoriteBtn.textContent = "Favorito ❤";
+                favoriteBtn.classList.add("btn-danger");
+            }
+
+            favoriteBtn.onclick = () => {
+                const updatedFavorites = [...favorites];
+                if (updatedFavorites.includes(place.name)) {
+                    const index = updatedFavorites.indexOf(place.name);
+                    updatedFavorites.splice(index, 1);
+                    favoriteBtn.textContent = "Favoritar";
+                    favoriteBtn.classList.remove("btn-danger");
+                    favoriteBtn.classList.add("btn-warning");
+                } else {
+                    updatedFavorites.push(place.name);
+                    favoriteBtn.textContent = "Favorito ❤";
+                    favoriteBtn.classList.remove("btn-warning");
+                    favoriteBtn.classList.add("btn-danger");
+                }
+                localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
+            };
+        } else {
+            placeDetails.innerHTML = `
+                <div class="alert alert-danger" role="alert">
+                    Local não encontrado!
+                </div>
+            `;
+        }
+
+        function goBack() {
+            window.history.back();
+        }
+
+        function redirectToMap(placeName) {
+            const encodedPlaceName = encodeURIComponent(placeName);
+            const googleMapsUrl = `https://www.google.com/maps?q=${encodedPlaceName}`;
+            window.open(googleMapsUrl, '_blank');
+        }
+
+        function sharePlace(name, address) {
+            if (navigator.share) {
+                navigator.share({
+                    title: `Visite ${name}`,
+                    text: `Confira o ${name} localizado em ${address}.`,
+                    url: window.location.href
+                }).catch(err => console.error('Erro ao compartilhar:', err));
+            } else {
+                alert('Compartilhamento não suportado pelo navegador.');
+            }
+        }
+
+        function calculateDistance(lat, lng) {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    const userLat = position.coords.latitude;
+                    const userLng = position.coords.longitude;
+
+                    const distance = haversine(userLat, userLng, lat, lng);
+                    
+                    const distanceInfo = document.getElementById('distance-info');
+                    distanceInfo.textContent = `Distância: ${distance.toFixed(2)} km`;
+                },
+                (error) => {
+                    console.error('Erro ao obter localização:', error);
+                    const distanceInfo = document.getElementById('distance-info');
+                    distanceInfo.textContent = 'Não foi possível obter sua localização.';
+                }
+            );
+        } else {
+            alert('Geolocalização não suportada pelo navegador.');
+        }
+    }
+
+    function haversine(lat1, lon1, lat2, lon2) {
+        const R = 6371;
+        const dLat = (lat2 - lat1) * (Math.PI / 180);
+        const dLon = (lon2 - lon1) * (Math.PI / 180);
+        const a = Math.sin(dLat / 2) ** 2 +
+            Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) *
+            Math.sin(dLon / 2) ** 2;
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        return R * c;
+    }
+    </script>
+</body>
+
+</html>
