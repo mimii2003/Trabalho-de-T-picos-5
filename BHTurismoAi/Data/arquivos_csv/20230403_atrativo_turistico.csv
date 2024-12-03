@@ -1,0 +1,328 @@
+﻿ID_ATRATIVO_TURISTICO;DESCRICAO;CATEGORIA;TIPO_LOGRADOURO;LOGRADOURO;NUMERO;COMPLEMENTO;NOME_BAIRRO_POPULAR;LINK_SITE_REDE_SOCIAL;REF_LOCALIZACAO;GEOMETRIA
+34;Museu Mineiro;CULTURAL;AVENIDA;JOAO PINHEIRO;342;;Lourdes;"<a target=""_blank"" href=""http://www.museumineiro.mg.gov.br/"">http://www.museumineiro.mg.gov.br/</a>";;POINT (611227.25368209 7796140.47919844)
+35;Arquivo Público Mineiro;CULTURAL;AVENIDA;JOAO PINHEIRO;372;;Lourdes;"<a target=""_blank"" href=""http://www.siaapm.cultura.mg.gov.br/"">http://www.siaapm.cultura.mg.gov.br/</a>";;POINT (611216.624788792 7796102.4169459)
+36;Basílica Nossa Senhora de Lourdes;CULTURAL;RUA;DA BAHIA;1596;;Lourdes;"<a target=""_blank"" href=""http://www.basilicadelourdes.com.br"">http://www.basilicadelourdes.com.br</a>";;POINT (611068.19134562 7796068.5938305)
+37;Centro de Arte Popular - Cemig;CULTURAL;RUA;GONCALVES DIAS;1608;;Lourdes;"<a target=""_blank"" href=""http://www.centrodeartepopular.mg.gov.br"">http://www.centrodeartepopular.mg.gov.br</a>";;POINT (610949.014158011 7795873.34357312)
+38;Centro de Memória do Minas Tênis Clube;CULTURAL;RUA;DA BAHIA;2244;;Lourdes;"<a target=""_blank"" href=""http://centroculturalminastc.com.br/"">http://centroculturalminastc.com.br/</a>";;POINT (610901.163523561 7795406.47860213)
+39;Rua do Amendoim;ENTRETENIMENTO E LAZER;RUA;PROFESSOR OCTAVIO COELHO DE MAGALHAES;910;;Mangabeiras;n/a;;POINT (613568.397302913 7793096.56877758)
+40;Mirante da Mata - Parque das Mangabeiras;ENTRETENIMENTO E LAZER;AVENIDA;JOSE DE PATROCINIO PONTES;580;;Mangabeiras;"<a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-de-parques-e-zoobotanica/informacoes/parques/parque-das-mangabeiras"">https://prefeitura.pbh.gov.br/fundacao-de-parques-e-zoobotanica/informacoes/parques/parque-das-mangabeiras</a>";;POINT (614308.536041075 7793124.36312012)
+41;Museu da História da Inquisição;CULTURAL;RUA;CANDIDO NAVES;55;;Ouro Preto;"<a target=""_blank"" href=""http://www.museudainquisicao.org.br/"">http://www.museudainquisicao.org.br/</a>";;POINT (606470.81156269 7802602.02396973)
+42;Aquário da Bacia do Rio São Francisco - Fundação de Parques Municipais e Zoobotânica;REALIZAÇÕES TEC. CIENTÍFICAS;AVENIDA;OTACILIO NEGRAO DE LIMA;8000;;Bandeirantes;"<a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-de-parques-e-zoobotanica/jardim-zoologico/aquario-do-rio-sao-francisco"">https://prefeitura.pbh.gov.br/fundacao-de-parques-e-zoobotanica/jardim-zoologico/aquario-do-rio-sao-francisco</a>";;POINT (604113.266957562 7804176.06357853)
+43;Zoológico e Jardim Botânico - Fundação de Parques Municipais e Zoobotânica;REALIZAÇÕES TEC. CIENTÍFICAS;AVENIDA;OTACILIO NEGRAO DE LIMA;8000;;Bandeirantes;"<a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-de-parques-e-zoobotanica/jardim-zoologico"">https://prefeitura.pbh.gov.br/fundacao-de-parques-e-zoobotanica/jardim-zoologico</a>";;POINT (604167.013370683 7804154.9678725)
+44;Jardim Japonês - Fundação de Parques Municipais e Zoobotânica;REALIZAÇÕES TEC. CIENTÍFICAS;AVENIDA;OTACILIO NEGRAO DE LIMA;8000;;Bandeirantes;"<a target=""_blank"" href=""https://prefeitura.pbh.gov.br/noticias/jardim-japones-um-recanto-de-beleza-oriental-em-belo-horizonte"">https://prefeitura.pbh.gov.br/noticias/jardim-japones-um-recanto-de-beleza-oriental-em-belo-horizonte</a>";;POINT (604129.38758316 7804159.66691602)
+45;Feira Tom Jobim;GASTRONOMIA E COMPRAS;AVENIDA;CARANDAI;600;;Santa Efigênia;"<a target=""_blank"" href=""https://www.facebook.com/pages/Feira-Tom-Jobim/556902631088947"">https://www.facebook.com/pages/Feira-Tom-Jobim/556902631088947</a>";;POINT (612205.895220668 7796119.23352293)
+46;Cidade Administrativa de Minas Gerais - CAMG;CULTURAL;RODOVIA;PAPA JOAO PAULO II;4101;;Serra Verde;"<a target=""_blank"" href=""http://www.mg.gov.br"">http://www.mg.gov.br</a>";;POINT (609956.915401541 7812286.89264279)
+47;Casa Fiat de Cultura;CULTURAL;PRACA;DA LIBERDADE;10;;Savassi;"<a target=""_blank"" href=""http://www.casafiatdecultura.com.br/"">http://www.casafiatdecultura.com.br/</a>";;POINT (610972.991439181 7795427.20367661)
+48;Museu dos Brinquedos;CULTURAL;AVENIDA;AFONSO PENA;2564;;Savassi;"<a target=""_blank"" href=""http://www.museudosbrinquedos.org.br"">http://www.museudosbrinquedos.org.br</a>";;POINT (612017.88997072 7795451.61941385)
+49;Biblioteca Pública Estadual de Minas Gerais;CULTURAL;PRACA;DA LIBERDADE;21;;Savassi;"<a target=""_blank"" href=""http://www.bibliotecapublica.mg.gov.br/index.php/pt-br/"">http://www.bibliotecapublica.mg.gov.br/index.php/pt-br/</a>";;POINT (611018.971901018 7795566.01612873)
+50;Cefart Liberdade - Fundação Clóvis Salgado;CULTURAL;RUA;SERGIPE;884;;Savassi;"<a target=""_blank"" href=""http://fcs.mg.gov.br"">http://fcs.mg.gov.br</a>";;POINT (611208.634565669 7795454.8287606)
+51;Centro Cultural Banco do Brasil - CCBB;CULTURAL;PRACA;DA LIBERDADE;450;;Savassi;"<a target=""_blank"" href=""https://www.bb.com.br/pbb/pagina-inicial/sobre-nos/cultura/ccbb#/"">https://www.bb.com.br/pbb/pagina-inicial/sobre-nos/cultura/ccbb#/</a>";;POINT (611221.45685355 7795679.39305119)
+52;Edifício Niemeyer;CULTURAL;PRACA;DA LIBERDADE;153;;Savassi;n/a;;POINT (611202.969670638 7795613.00656396)
+53;Espaço do Conhecimento UFMG;CULTURAL;PRACA;DA LIBERDADE;700;;Savassi;"<a target=""_blank"" href=""http://www.espacodoconhecimento.org.br/"">http://www.espacodoconhecimento.org.br/</a>";;POINT (611047.964289562 7795700.53874704)
+54;Memorial Minas Gerais Vale;CULTURAL;PRACA;DA LIBERDADE;640;;Savassi;"<a target=""_blank"" href=""http://www.memorialvale.com.br"">http://www.memorialvale.com.br</a>";;POINT (611066.030934415 7795780.90238925)
+55;MM Gerdau - Museu das Minas e do Metal;CULTURAL;PRACA;DA LIBERDADE;700;;Savassi;"<a target=""_blank"" href=""http://www.mmgerdau.org.br/"">http://www.mmgerdau.org.br/</a>";;POINT (611059.838305349 7795730.29269071)
+56;Paróquia Nossa Senhora da Boa Viagem;CULTURAL;RUA;SERGIPE;175;;Boa Viagem;"<a target=""_blank"" href=""http://www.igrejaboaviagem.org.br"">http://www.igrejaboaviagem.org.br</a>";;POINT (611424.403573362 7796087.70993947)
+57;Presépio do Pipiripau;CULTURAL;RUA;GUSTAVO DA SILVEIRA;1035;;Horto Florestal;"<a target=""_blank"" href=""https://www.ufmg.br/mhnjb/"">https://www.ufmg.br/mhnjb/</a>";;POINT (613746.268410221 7799960.26169278)
+58;Museu de História Natural e Jardim Botânico da UFMG;CULTURAL;RUA;GUSTAVO DA SILVEIRA;1035;;Horto Florestal;"<a target=""_blank"" href=""http://www.ufmg.br/mhnjb"">http://www.ufmg.br/mhnjb</a>";;POINT (613746.268410221 7799960.26169278)
+59;Iate Tênis Clube;CULTURAL;AVENIDA;OTACILIO NEGRAO DE LIMA;1350;;Lagoa da Pampulha;"<a target=""_blank"" href=""http://www.iatebh.com.br/site/"">http://www.iatebh.com.br/site/</a>";;POINT (607208.575497694 7804291.50008177)
+60;Igreja São Francisco de Assis;CULTURAL;AVENIDA;OTACILIO NEGRAO DE LIMA;3000;;Lagoa da Pampulha;"<a target=""_blank"" href=""http://portalbelohorizonte.com.br/o-que-fazer/arte-e-cultura/conjunto-moderno-da-pampulha/igreja-sao-francisco-de-assis"">http://portalbelohorizonte.com.br/o-que-fazer/arte-e-cultura/conjunto-moderno-da-pampulha/igreja-sao-francisco-de-assis</a>";;POINT (606895.662198351 7803860.16787818)
+61;Memorial Minas-Japão;CULTURAL;AVENIDA;OTACILIO NEGRAO DE LIMA;6061;;Lagoa da Pampulha;n/a;;POINT (605353.062630838 7804470.98354843)
+62;Feira da Afonso Pena (Feira Hippie);GASTRONOMIA E COMPRAS;;;;;;"<a target=""_blank"" href=""https://feirahippie.com/"">https://feirahippie.com/</a>";Parque Municipal;POINT (611443.995699409 7796519.40206978)
+63;Feira de Flores e Plantas Naturais;GASTRONOMIA E COMPRAS;;;;;;"<a target=""_blank"" href=""https://prefeitura.pbh.gov.br/centro-sul/feira-de-plantas-e-flores-naturais"">https://prefeitura.pbh.gov.br/centro-sul/feira-de-plantas-e-flores-naturais</a>";Avenida Carandaí entre Avenida Brasil e Rua Ceará;POINT (612201.722823454 7796098.50774161)
+64;Serra do Curral;NATURAL;;;;;;n/a;Praça Estado de Israel;POINT (613705.781314728 7792528.40442579)
+65;Viaduto Santa Tereza;CULTURAL;;;;;;n/a;Entre Rua da Bahia e Sapucai;POINT (611467.595305784 7796995.92507491)
+66;Palácio da Liberdade;CULTURAL;;;;;;"<a target=""_blank"" href=""http://www.circuitoliberdade.mg.gov.br/pt-br/"">http://www.circuitoliberdade.mg.gov.br/pt-br/</a>";Praça da Liberdade;POINT (611094.512080613 7795520.08547778)
+67;Mirante de Arte Urbana da Rua Sapucaí;CULTURAL;;;;;;"<a target=""_blank"" href=""http://cura.art/"">http://cura.art/</a>";"Rua Sapucai; s/n";POINT (611775.717769592 7797532.08594092)
+68;Mirante do Mangabeiras;ENTRETENIMENTO E LAZER;;;;;;"<a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-de-parques-e-zoobotanica/informacoes/parques/mirante-do-mangabeiras"">https://prefeitura.pbh.gov.br/fundacao-de-parques-e-zoobotanica/informacoes/parques/mirante-do-mangabeiras</a>";Entre a Praça do Papa e Parque Mangabeiras;POINT (613755.099709462 7793386.85968971)
+69;Arquivo Público da Cidade de Belo Horizonte;CULTURAL;RUA;DO ITAMBE;227;;Floresta;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/apcbh"">https://www.facebook.com/apcbh</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/arquivo-publico"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/arquivo-publico</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (611813.269344516 7796936.53716315)
+70;Biblioteca Infantil Juvenil De Belo Horizonte;CULTURAL;PRACA;RUI BARBOSA;50;;Centro;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/bpijbh"">https://www.facebook.com/bpijbh</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/bibliotecas"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/bibliotecas</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (611595.719234455 7797479.16671247)
+71;Centro Cultural Usina de Cultura;CULTURAL;RUA;DOM CABRAL;765;;Ipiranga;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/UsinadeCultura"">https://www.facebook.com/UsinadeCultura</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/usinadecultura"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/usinadecultura</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (611877.94521048 7800785.43433344)
+72;Biblioteca do Centro Cultural Usina de Cultura;CULTURAL;RUA;DOM CABRAL;765;;Ipiranga;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/UsinadeCultura"">https://www.facebook.com/UsinadeCultura</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/usinadecultura"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/usinadecultura</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (611877.94521048 7800785.43433344)
+73;Centro de Referência da Cultura Popular e Tradicional Lagoa Do Nado;CULTURAL;RUA;MINISTRO HERMENEGILDO DE BARROS;904;;Itapoã;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentrodeReferenciaLagoadoNado"">https://www.facebook.com/CentrodeReferenciaLagoadoNado</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/lagoa-do-nado"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/lagoa-do-nado</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (608723.262882265 7806648.24037411)
+74;Biblioteca do Centro de Referência da Cultura Popular e Tradicional Lagoa do Nado;CULTURAL;RUA;MINISTRO HERMENEGILDO DE BARROS;904;;Itapoã;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentrodeReferenciaLagoadoNado"">https://www.facebook.com/CentrodeReferenciaLagoadoNado</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/lagoa-do-nado"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/lagoa-do-nado</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (608723.262882265 7806648.24037411)
+75;Centro De Referência Da Memória De Venda Nova;CULTURAL;RUA;BOA VISTA;11;;São João Batista;"Rede social: <a target=""_blank"" href=""http://www.atividades relacionadas com o Centro Cultural Venda Nova"">http://www.atividades relacionadas com o Centro Cultural Venda Nova</a>
+Portal PBH: <a target=""_blank"" href=""não tem link específico"">não tem link específico</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (609580.162775658 7808199.68458214)
+76;"Casa Do Baile/Centro de Referência de Arquitetura; Urbanismo e Design ";CULTURAL;AVENIDA;OTACILIO NEGRAO DE LIMA;751;;Lagoa da Pampulha;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/casadobaile.bh"">https://www.facebook.com/casadobaile.bh</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/casadobaile"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/casadobaile</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (607839.768928321 7804288.39066111)
+77;Centro Cultural Alto Vera Cruz;CULTURAL;RUA;PADRE JULIO MARIA;1577;;Alto Vera Cruz;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalAltoVeraCruz"">https://www.facebook.com/CentroCulturalAltoVeraCruz</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/altoveracruz"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/altoveracruz</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (616243.09573688 7797578.01937496)
+78;Biblioteca do Centro Cultural Alto Vera Cruz;CULTURAL;RUA;PADRE JULIO MARIA;1577;;Alto Vera Cruz;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalAltoVeraCruz"">https://www.facebook.com/CentroCulturalAltoVeraCruz</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/altoveracruz"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/altoveracruz</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (616243.09573688 7797578.01937496)
+79;Centro Cultural Bairro das Indústrias;CULTURAL;RUA;DOS INDUSTRIARIOS;265;;Bairro das Indústrias I;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalBairrodasIndustrias"">https://www.facebook.com/CentroCulturalBairrodasIndustrias</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/bairrodasindustrias"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/bairrodasindustrias</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (604588.602890433 7792374.90232246)
+80;Biblioteca do Centro Cultural Bairro das Indústrias;CULTURAL;RUA;DOS INDUSTRIARIOS;265;;Bairro das Indústrias I;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalBairrodasIndustrias"">https://www.facebook.com/CentroCulturalBairrodasIndustrias</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/bairrodasindustrias"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/bairrodasindustrias</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (604588.602890433 7792374.90232246)
+81;Centro Cultural Jardim Guanabara;CULTURAL;RUA;JOAO ALVARES CABRAL;277;;Jardim Guanabara;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalJardimGuanabara"">https://www.facebook.com/CentroCulturalJardimGuanabara</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/jardimguanabara"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/jardimguanabara</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (611730.559114849 7807105.53178259)
+82;Biblioteca do Centro Cultural Jardim Guanabara;CULTURAL;RUA;JOAO ALVARES CABRAL;277;;Jardim Guanabara;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalJardimGuanabara"">https://www.facebook.com/CentroCulturalJardimGuanabara</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/jardimguanabara"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/jardimguanabara</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (611730.559114849 7807105.53178259)
+83;Centro Cultural Liberalino Alves de Oliveira;CULTURAL;AVENIDA;PRESIDENTE ANTONIO CARLOS;821;;Lagoinha;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalLiberalinoAlvesdeOliveira"">https://www.facebook.com/CentroCulturalLiberalinoAlvesdeOliveira</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/liberalinoalves"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/liberalinoalves</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (610402.792940157 7798716.28490065)
+84;Biblioteca do Centro Cultural Liberalino Alves de Oliveira;CULTURAL;AVENIDA;PRESIDENTE ANTONIO CARLOS;821;;Lagoinha;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalLiberalinoAlvesdeOliveira"">https://www.facebook.com/CentroCulturalLiberalinoAlvesdeOliveira</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/liberalinoalves"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/liberalinoalves</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (610402.792940157 7798716.28490065)
+85;Centro Cultural Lindeia Regina;CULTURAL;RUA;ARISTOLINO BASILIO DE OLIVEIRA;445;;Lindéia;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalLindeiaRegina"">https://www.facebook.com/CentroCulturalLindeiaRegina</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/lindeiaregina"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/lindeiaregina</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (598879.817015127 7790142.76550603)
+86;Biblioteca do Centro Cultural Lindeia Regina;CULTURAL;RUA;ARISTOLINO BASILIO DE OLIVEIRA;445;;Lindéia;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalLindeiaRegina"">https://www.facebook.com/CentroCulturalLindeiaRegina</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/lindeiaregina"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/lindeiaregina</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (598879.817015127 7790142.76550603)
+87;Centro Cultural Padre Eustáquio;CULTURAL;RUA;JACUTINGA;550;;Padre Eustáquio;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalPadreEustaquio"">https://www.facebook.com/CentroCulturalPadreEustaquio</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/padreeustaquio"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/padreeustaquio</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (605851.474443464 7797621.24779228)
+88;Biblioteca do Centro Cultural Padre Eustáquio;CULTURAL;RUA;JACUTINGA;550;;Padre Eustáquio;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalPadreEustaquio"">https://www.facebook.com/CentroCulturalPadreEustaquio</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/padreeustaquio"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/padreeustaquio</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (605851.474443464 7797621.24779228)
+89;Centro Cultural Pampulha;CULTURAL;RUA;EXPEDICIONARIO PAULO DE SOUZA;185;;Urca;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/centroculturalpampulha"">https://www.facebook.com/centroculturalpampulha</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/pampulha"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/pampulha</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (603167.781958897 7802455.67375889)
+90;Biblioteca do Centro Cultural Pampulha;CULTURAL;RUA;EXPEDICIONARIO PAULO DE SOUZA;185;;Urca;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/centroculturalpampulha"">https://www.facebook.com/centroculturalpampulha</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/pampulha"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/pampulha</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (603167.781958897 7802455.67375889)
+91;Centro Cultural Salgado Filho;CULTURAL;RUA;NOVA PONTE;22;;Salgado Filho;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalSalgadoFilho"">https://www.facebook.com/CentroCulturalSalgadoFilho</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/salgadofilho"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/salgadofilho</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (606172.028226373 7794286.2632665)
+92;Biblioteca do Centro Cultural Salgado Filho;CULTURAL;RUA;NOVA PONTE;22;;Salgado Filho;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalSalgadoFilho"">https://www.facebook.com/CentroCulturalSalgadoFilho</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/salgadofilho"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/salgadofilho</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (606172.028226373 7794286.2632665)
+93;Centro Cultural São Bernardo;CULTURAL;RUA;EDNA QUENTEL;320;;São Bernardo;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalSaoBernardo.ccsb"">https://www.facebook.com/CentroCulturalSaoBernardo.ccsb</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/saobernardo"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/saobernardo</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (610429.022970863 7805176.22999756)
+94;Biblioteca do Centro Cultural São Bernardo;CULTURAL;RUA;EDNA QUENTEL;320;;São Bernardo;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalSaoBernardo.ccsb"">https://www.facebook.com/CentroCulturalSaoBernardo.ccsb</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/saobernardo"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/saobernardo</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (610429.022970863 7805176.22999756)
+95;Centro Cultural São Geraldo;CULTURAL;RUA;SILVA ALVARENGA;548;;São Geraldo;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalSaoGeraldo"">https://www.facebook.com/CentroCulturalSaoGeraldo</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/saogeraldo"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/saogeraldo</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (615361.725906973 7799308.10661231)
+96;Biblioteca do Centro Cultural São Geraldo;CULTURAL;RUA;SILVA ALVARENGA;548;;São Geraldo;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalSaoGeraldo"">https://www.facebook.com/CentroCulturalSaoGeraldo</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/saogeraldo"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/saogeraldo</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (615361.725906973 7799308.10661231)
+97;Centro Cultural Urucuia;CULTURAL;RUA;W TRES;500;;Pongelupe;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalUrucuia"">https://www.facebook.com/CentroCulturalUrucuia</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/urucuia"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/urucuia</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (603621.705749365 7787257.046852)
+98;Biblioteca do Centro Cultural Urucuia;CULTURAL;RUA;W TRES;500;;Pongelupe;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalUrucuia"">https://www.facebook.com/CentroCulturalUrucuia</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/urucuia"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/urucuia</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (603621.705749365 7787257.046852)
+99;Centro Cultural Venda Nova;CULTURAL;RUA;JOSE FERREIRA DOS SANTOS;184;;Jardim dos Comerciários;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalVendaNova"">https://www.facebook.com/CentroCulturalVendaNova</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vendanova"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vendanova</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (607588.263644147 7810333.5702359)
+100;Biblioteca do Centro Cultural Venda Nova;CULTURAL;RUA;JOSE FERREIRA DOS SANTOS;184;;Jardim dos Comerciários;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalVendaNova"">https://www.facebook.com/CentroCulturalVendaNova</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vendanova"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vendanova</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (607588.263644147 7810333.5702359)
+101;Centro Cultural Vila Fátima;CULTURAL;RUA;SAO MIGUEL ARCANJO;215;;Nossa Senhora de Fátima;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalVilaFatima"">https://www.facebook.com/CentroCulturalVilaFatima</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vilafatima"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vilafatima</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (614797.162325809 7795694.35293344)
+102;Biblioteca do Centro Cultural Vila Fátima;CULTURAL;RUA;SAO MIGUEL ARCANJO;215;;Nossa Senhora de Fátima;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalVilaFatima"">https://www.facebook.com/CentroCulturalVilaFatima</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vilafatima"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vilafatima</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (614797.162325809 7795694.35293344)
+103;Centro Cultural Vila Marçola;CULTURAL;RUA;MANGABEIRA DA SERRA;320;;Marçola;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalVilaMarcola.ccvm"">https://www.facebook.com/CentroCulturalVilaMarcola.ccvm</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vilamarcola"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vilamarcola</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (614135.83357892 7794324.46454526)
+104;Biblioteca do Centro Cultural Vila Marçola;CULTURAL;RUA;MANGABEIRA DA SERRA;320;;Marçola;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalVilaMarcola.ccvm"">https://www.facebook.com/CentroCulturalVilaMarcola.ccvm</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vilamarcola"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vilamarcola</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (614135.83357892 7794324.46454526)
+105;Centro Cultural Vila Santa Rita;CULTURAL;RUA;ANA RAFAEL DOS SANTOS;149;;Santa Rita;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalVilaSantaRita"">https://www.facebook.com/CentroCulturalVilaSantaRita</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vilasantarita"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vilasantarita</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (601426.435727238 7787199.90847263)
+106;Biblioteca do Centro Cultural Vila Santa Rita;CULTURAL;RUA;ANA RAFAEL DOS SANTOS;149;;Santa Rita;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCulturalVilaSantaRita"">https://www.facebook.com/CentroCulturalVilaSantaRita</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vilasantarita"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/vilasantarita</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (601426.435727238 7787199.90847263)
+107;Centro Cultural Zilah Spósito;CULTURAL;RUA;CARNAUBA;928;;Zilah Spósito;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCultural.ZilahSposito"">https://www.facebook.com/CentroCultural.ZilahSposito</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/zilahsposito"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/zilahsposito</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (612821.142401123 7810177.92191766)
+108;Biblioteca do Centro Cultural Zihah Spósito;CULTURAL;RUA;CARNAUBA;928;;Zilah Spósito;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CentroCultural.ZilahSposito"">https://www.facebook.com/CentroCultural.ZilahSposito</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/zilahsposito"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/centros-culturais/zilahsposito</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (612821.142401123 7810177.92191766)
+109;Escola Livre de Artes Arena da Cultura;CULTURAL;AVENIDA;DOS ANDRADAS;367;B;Centro;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/ArenaDaCultura.BH"">https://www.facebook.com/ArenaDaCultura.BH</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/escola-livre-de-artes"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/escola-livre-de-artes</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (611523.396197928 7797214.99203023)
+110;Museu Casa Kubitschek;CULTURAL;AVENIDA;OTACILIO NEGRAO DE LIMA;4188;;Bandeirantes;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/CasaKubitschek"">https://www.facebook.com/CasaKubitschek</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/casakubitschek"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/casakubitschek</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (606784.532954774 7804252.09810192)
+111;Museu Da Moda;CULTURAL;RUA;DA BAHIA;1149;;Centro;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/MUMOBH/"">https://www.facebook.com/MUMOBH/</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/index.php/fundacao-municipal-de-cultura/museus/mumo"">https://prefeitura.pbh.gov.br/index.php/fundacao-municipal-de-cultura/museus/mumo</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (611215.486862279 7796477.24065162)
+112;Biblioteca do Museu da Moda;CULTURAL;RUA;DA BAHIA;1149;;Centro;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/MUMOBH/"">https://www.facebook.com/MUMOBH/</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/index.php/fundacao-municipal-de-cultura/museus/mumo"">https://prefeitura.pbh.gov.br/index.php/fundacao-municipal-de-cultura/museus/mumo</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (611215.486862279 7796477.24065162)
+113;Museu Da Imagem E Do Som De Belo Horizonte;CULTURAL;AVENIDA;ALVARES CABRAL;560;;Lourdes;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/museudaimagemedosombh"">https://www.facebook.com/museudaimagemedosombh</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/index.php/fundacao-municipal-de-cultura/museus/imagemesom"">https://prefeitura.pbh.gov.br/index.php/fundacao-municipal-de-cultura/museus/imagemesom</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (610917.61182282 7796250.95318937)
+114;Cine Santa Tereza;CULTURAL;RUA;ESTRELA DO SUL;69;;Santa Tereza;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/miscinesantatereza"">https://www.facebook.com/miscinesantatereza</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/cinesantatereza"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/cinesantatereza</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (613364.406388261 7797416.51181829)
+115;Biblioteca do MIS Cine Santa Tereza;CULTURAL;RUA;ESTRELA DO SUL;69;;Santa Tereza;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/miscinesantatereza"">https://www.facebook.com/miscinesantatereza</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/cinesantatereza"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/cinesantatereza</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (613364.406388261 7797416.51181829)
+116;Museu de Arte da Pampulha;CULTURAL;PRACA;DO MUSEU DE ARTE;100;;Lagoa da Pampulha;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/map.fmc"">https://www.facebook.com/map.fmc</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/map"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/map</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (607463.504019948 7804614.50433519)
+117;Biblioteca do Museu de Arte da Pampulha;CULTURAL;PRACA;DO MUSEU DE ARTE;100;;Lagoa da Pampulha;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/map.fmc"">https://www.facebook.com/map.fmc</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/map"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/map</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (607463.504019948 7804614.50433519)
+118;Museu Histórico Abílio Barreto;CULTURAL;AVENIDA;PRUDENTE DE MORAIS;202;;Cidade Jardim;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/MuseuHistoricoAbilioBarreto.MHAB"">https://www.facebook.com/MuseuHistoricoAbilioBarreto.MHAB</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/mhab"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/mhab</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (610147.715992706 7795119.59699605)
+119;Biblioteca do Museu Histórico Abílio Barreto;CULTURAL;AVENIDA;PRUDENTE DE MORAIS;202;;Cidade Jardim;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/MuseuHistoricoAbilioBarreto.MHAB"">https://www.facebook.com/MuseuHistoricoAbilioBarreto.MHAB</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/mhab"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/mhab</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (610147.715992706 7795119.59699605)
+120;Teatro Francisco Nunes;CULTURAL;AVENIDA;AFONSO PENA;1377;;Centro;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/TeatroFranciscoNunes"">https://www.facebook.com/TeatroFranciscoNunes</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/teatros/francisconunes"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/teatros/francisconunes</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (611469.120786979 7796539.76792437)
+121;Teatro Marilia;CULTURAL;AVENIDA;PROFESSOR ALFREDO BALENA;586;;Santa Efigênia;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/TeatroMarilia"">https://www.facebook.com/TeatroMarilia</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/teatros/marilia"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/teatros/marilia</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (611809.256298844 7796308.56164133)
+122;Espaço Cênico Yogifumi Yagi / Teatro Raul Belém Machado;CULTURAL;RUA;LEONIL PRATA;53;;Alípio de Melo;"Rede social: <a target=""_blank"" href=""https://www.facebook.com/teatroraulbelemmachado"">https://www.facebook.com/teatroraulbelemmachado</a>
+Portal PBH: <a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/teatros/raulbelemmachado"">https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/teatros/raulbelemmachado</a>
+Site BH Faz cultura <a target=""_blank"" href=""""></a>";;POINT (604040.332464764 7799604.07419372)
+123;Parque Ecológico Vencesli Firmino da Silva;NATURAL;RUA;DOS AGRONOMOS;285;;Alípio de Melo;;;POINT (604649.057182381 7800058.00179807)
+124;Parque Ecológico e de Lazer do Bairro Caiçara;NATURAL;RUA;DO TICO-TICO;99;;Alto Caiçaras;;;POINT (607565.411051621 7799636.44267616)
+125;Parque Julien Rien;NATURAL;PRACA;MARINO MENDES CAMPOS;1100;;Anchieta;;;POINT (612339.004759668 7793381.52170516)
+126;Parque Julien Rien;NATURAL;AVENIDA;DOS BANDEIRANTES;911;;Anchieta;;;POINT (612290.197325062 7793259.97580308)
+127;Cemitério do Bonfim;NATURAL;RUA;BONFIM;1120;;Bonfim;;;POINT (609758.63592028 7798238.17949335)
+128;Parque Aggeo Pio Sobrinho;NATURAL;AVENIDA;PROFESSOR MARIO WERNECK;2691;;Buritis;;;POINT (607662.562869561 7790804.8630847)
+129;Cemitério da Paz;NATURAL;AVENIDA;PRESIDENTE CARLOS LUZ;850;;Caiçaras;;;POINT (608214.296491398 7799220.47502708)
+130;Parque Municipal Ursulina de Andrade Mello;NATURAL;RUA;DOUTOR SYLVIO MENICUCCI;640;;Castelo;;;POINT (604721.808116486 7800651.39191478)
+131;Parque Municipal Américo Renné Giannetti;NATURAL;AVENIDA;AFONSO PENA;1155;;Centro;;;POINT (611355.270703772 7796780.23822209)
+132;Parque Municipal Américo Renné Giannetti;NATURAL;AVENIDA;DOS ANDRADAS;800;;Centro;;;POINT (611594.805534078 7796787.44675839)
+133;Parque Municipal Américo Renné Giannetti;NATURAL;AVENIDA;AFONSO PENA;1377;;Centro;;;POINT (611469.120786979 7796539.76792437)
+134;Parque Municipal Américo Renné Giannetti;NATURAL;ALAMEDA;EZEQUIEL DIAS;300;;Centro;;;POINT (611720.472848398 7796556.09259402)
+135;Parque Ecológico e Cultural Professor Marcos Mazzoni;NATURAL;RUA;DEPUTADO BERNARDINO DE SENA FIGUEIREDO;1022;;Cidade Nova;;;POINT (613015.861342525 7800362.05807615)
+136;CEVAE Coqueiros;NATURAL;RUA;ENEIDA;635;;Coqueiros;;;POINT (602385.318813434 7799500.36035926)
+137;Parque Amilcar Vianna Martins;NATURAL;RUA;COBRE;114;;Cruzeiro;;;POINT (612505.184320143 7794468.99614107)
+138;Parque Dona Clara;NATURAL;RUA;MINISTRO OROZIMBO NONATO;470;;Dona Clara;;;POINT (611242.632893217 7803867.43360196)
+139;Parque da Vila Pantanal;NATURAL;RUA;GERALDO VASCONCELLOS;865;;Estoril;;;POINT (608692.654308239 7792934.69172718)
+140;Parque Bandeirante Silva Ortiz;NATURAL;RUA;JOSE CLAUDIO REZENDE;328;;Estoril;;;POINT (608440.067922166 7792112.12386852)
+141;Parque Halley Alves Bessa;NATURAL;RUA;AUSTRIA;22;;Havaí;;;POINT (608142.854393961 7792093.26299756)
+142;Parque do Conjunto Estrela Dalva;NATURAL;AVENIDA;COSTA DO MARFIM;400;;Havaí;;;POINT (607734.281054939 7792143.7327246)
+143;Parque do Bairro Havaí;NATURAL;RUA;MANILA;300;;Havaí;;;POINT (607896.391751073 7792283.88990084)
+144;Parque Municipal Fazenda Lagoa do Nado;NATURAL;RUA;MINISTRO HERMENEGILDO DE BARROS;904;;Itapoã;;;POINT (608725.41073451 7806651.47220394)
+145;Parque Municipal Fazenda Lagoa do Nado;NATURAL;RUA;DESEMBARGADOR LINCOLN PRATES;240;;Itapoã;;;POINT (608946.095490575 7806835.06578699)
+146;Cemitério da Consolação;NATURAL;RUA;JOSE GOMES DOMINGUES;2000;;Jaqueline;;;POINT (610156.658399163 7809760.38586449)
+147;Parque Mosteiro Tom Jobim;NATURAL;RUA;DOUTOR ISMAEL DE FARIA;150;;Luxemburgo;;;POINT (609327.185610248 7793635.50180316)
+148;Parque das Mangabeiras - Maurício Campos;NATURAL;RUA;CARACA;840;;Mangabeiras;;;POINT (613505.514494312 7794351.90325789)
+149;Parque das Mangabeiras - Maurício Campos;NATURAL;PRACA;CIDADE DO PORTO;100;;Mangabeiras;;;POINT (613468.460789225 7794241.36111601)
+150;Parque da Serra do Curral;NATURAL;AVENIDA;JOSE DE PATROCINIO PONTES;1951;;Mangabeiras;;;POINT (613108.559549904 7792376.10542581)
+151;Parque das Mangabeiras - Maurício Campos;NATURAL;AVENIDA;JOSE DE PATROCINIO PONTES;580;;Mangabeiras;;;POINT (614308.535297496 7793124.36238234)
+152;Parque Nossa Senhora da Piedade;NATURAL;RUA;RUBENS DE SOUZA PIMENTEL;750;;Minaslândia;;;POINT (612279.776245345 7804976.32368132)
+153;Parque Primeiro de Maio;NATURAL;RUA;JOANA D'ARC;190;;Minaslândia;;;POINT (611816.645756683 7804098.24777337)
+154;CEVAE Morro das Pedras;NATURAL;RUA;BELFORT ROXO;215;;Nova Granada;;;POINT (608220.999714735 7794395.44133938)
+155;Parque Marcus Pereira de Mello;NATURAL;RUA;DOUTOR JOSE OLIMPIO BORGES;120;;Novo São Lucas;;;POINT (613590.075627567 7795960.92574602)
+156;Parque Elias Michel Farah;NATURAL;RUA;DESEMBARGADOR PAULO MOTA;235;;Ouro Preto;;;POINT (606796.977091737 7802055.99355066)
+157;Parque Ecológico Renato Azeredo;NATURAL;RUA;ANTONIO PEREGRINO NASCIMENTO;215;;Palmares;;;POINT (611662.925582788 7801979.74766136)
+158;Jardim Zoológico;NATURAL;AVENIDA;ANTONIO FRANCISCO LISBOA;2600;;Bandeirantes;;;POINT (603138.300885405 7802981.32035784)
+159;Jardim Zoológico;NATURAL;AVENIDA;OTACILIO NEGRAO DE LIMA;8000;;Bandeirantes;;;POINT (604126.249262792 7804181.62233667)
+160;Jardim Botânico;NATURAL;AVENIDA;OTACILIO NEGRAO DE LIMA;8000;;Bandeirantes;;;POINT (604126.249262792 7804181.62233667)
+161;Parque Cássia Eller;NATURAL;RUA;SILVIO PEREIRA BATISTA;125;;Paquetá;;;POINT (605564.958582231 7801131.84657597)
+162;Parque do Bairro Planalto;NATURAL;RUA;SAO JOSE DO JACURI;100;;Planalto;;;POINT (609715.098793442 7806358.21018271)
+163;Parque Jornalista Eduardo Couri;NATURAL;AVENIDA;ARTUR BERNARDES;85;;Santa Lúcia;;;POINT (610141.910918321 7793562.72389306)
+164;Parque Ecológico Pedro Machado;NATURAL;RUA;CASTRO MENEZES;110;;Santa Maria;;;POINT (603419.511093565 7795109.00915118)
+165;Parque Ecológico Universitário;NATURAL;RUA;ARISTOTELES RIBEIRO VASCONCELOS;87;A;Santa Rosa;;;POINT (610703.780420612 7803081.80938267)
+166;Parque Rosinha Cadar;NATURAL;RUA;RODRIGUES CALDAS;315;;Santo Agostinho;;;POINT (609652.675885615 7795726.77726348)
+167;Parque Rosinha Cadar;NATURAL;RUA;MATIAS CARDOSO;126;;Santo Agostinho;;;POINT (609640.323533963 7795657.46100372)
+168;Área do vertedouro da Barragem Santa Lúcia;NATURAL;RUA;ENGENHEIRO ZOROASTRO TORRES;150;;Santo Antônio;;;POINT (610307.165883857 7793709.2740632)
+169;Parque Municipal Tião dos Santos;NATURAL;RUA;OPERARIO SILVA;290;;São Gabriel;;;POINT (613507.069489328 7803975.94176368)
+170;Parque Linear do Vale do Arrudas;NATURAL;AVENIDA;DOS ANDRADAS;8001;;São Geraldo;;;POINT (615808.892148259 7798901.19726228)
+171;Cemitério da Saudade;NATURAL;PRACA;LOUIS BRAILLE;585;;Saudade;;;POINT (615188.665167288 7797139.24541919)
+172;CEVAE Serra Verde;NATURAL;RUA;SEBASTIAO GOMES PEREIRA;140;;Serra Verde;;;POINT (609663.471936628 7810918.84635128)
+173;Parque Mata das Borboletas;NATURAL;RUA;ASSUNCAO;650;;Sion;;;POINT (611369.090240285 7792852.76664824)
+174;Parque Jornalista Eduardo Couri;NATURAL;AVENIDA;DOS BANDEIRANTES;240;;Sion;;;POINT (611921.999047402 7792893.08019709)
+175;Parque Ecológico Padre Alfredo Sabetta;NATURAL;RUA;ANTONIO TEIXEIRA DIAS;1001;;Teixeira Dias;;;POINT (602419.644751768 7790046.19967137)
+176;Parque da Matinha;NATURAL;RUA;LEONCIO CHAGAS;360;;União;;;POINT (613189.657428555 7800799.810805)
+177;Parque Alexander Brandt;NATURAL;RUA;JOAQUIM GONCALVES DA SILVA;67;;Rio Branco;;;POINT (607006.890392059 7808920.27790746)
+178;Parque do Bairro Jardim Leblon;NATURAL;RUA;MARIA ALINE LOPES;19;;Rio Branco;;;POINT (605801.443394387 7808063.12284741)
+179;Parque Alexander Brandt;NATURAL;RUA;JOAQUIM GONCALVES DA SILVA;826;;Rio Branco;;;POINT (606921.375435414 7808917.82330452)
+180;Parque Municipal do Bairro Trevo;NATURAL;RUA;COMENDADOR BARBOSA MELO;25;;Trevo;;;POINT (603809.030224912 7806495.63377274)
+181;Parque Ecologico Jardim Vitoria;NATURAL;RUA;ARMINDO GONCALVES FERREIRA;5;;Jardim Vitória;;;POINT (617055.754510097 7804656.80572486)
+182;Parque do Confisco;NATURAL;RUA;CECILIA MAGALHAES GOMES;126;;Confisco;;;POINT (602762.049231977 7803117.28346202)
+183;Parque Real;NATURAL;RUA;TRES MIL E SETENTA E QUATRO;201;;Paulo VI;;;POINT (616543.201074504 7805425.67922289)
+184;CEVAE Capitão Eduardo;NATURAL;RUA;MACAUBAS;200;;Capitão Eduardo;;;POINT (618075.732466132 7807034.6517212)
+185;Parque Fernão Dias;NATURAL;RUA;NEIDE;33;;Fernão Dias;;;POINT (613709.112635824 7802128.77029914)
+186;Parque Carlos de Faria Tavares;NATURAL;AVENIDA;PERIMETRAL;800;;Distrito Industrial do Jatobá;;;POINT (601714.209118933 7788065.3768894)
+187;Parque-Escola Jardim Belmonte;NATURAL;RUA;JORNALISTA ABRAHAO SADI;380;;Belmonte;;;POINT (615138.263162422 7804928.70269367)
+188;Parque-Escola Jardim Belmonte;NATURAL;RUA;ANIS;135;;Belmonte;;;POINT (615003.649053167 7805127.46332212)
+189;CEVAE Taquaril;NATURAL;RUA;DOIS MIL DUZENTOS E QUARENTA E SETE;1000;;Granja de Freitas;;;POINT (616581.766888276 7798223.78514755)
+190;Parque Orlando de Carvalho Silveira;NATURAL;RUA;JURUA;860;;Silveira;;;POINT (612141.178568123 7799710.51733654)
+191;Parque Municipal Ismael de Oliveira Fábregas;NATURAL;PRACA;ISMAEL DE OLIVEIRA FABREGAS;400;;Silveira;;;POINT (611717.370175353 7800452.21155781)
+192;Parque José Dazinho Pimenta;NATURAL;RUA;JOSE AVELINO DA SILVA;30;;Cenáculo;;;POINT (608532.234718729 7809663.88522154)
+193;Parque Altamira Costa Nogueira;NATURAL;RUA;COPERNICO PINTO COELHO;500;;Estrela;;;POINT (610673.504008394 7793820.30146389)
+194;Parque Jacques Cousteau;NATURAL;RUA;AUGUSTO JOSE DOS SANTOS;366;;Estrela do Oriente;;;POINT (605682.156136156 7791985.95926197)
+195;Parque Linear Avenida José Cândido da Silveira;NATURAL;AVENIDA;JOSE CANDIDO DA SILVEIRA;1900;;Horto Florestal;;;POINT (613376.095968087 7800883.20383059)
+196;Parque José Lopes dos Reis;NATURAL;RUA;ALBANIA;17;;Laranjeiras;;;POINT (608357.322982799 7810116.91546438)
+197;Parque Ecológico e Cultural Jardim das Nascentes;NATURAL;RUA;DAS TOURADAS;360;;Madri;;;POINT (611487.63546311 7808757.7143827)
+198;Parque da Vila Santa Sofia;NATURAL;RUA;ALICE;215;;Santa Sofia;;;POINT (608003.895425885 7793722.87129552)
+199;Parque do Bicão;NATURAL;AVENIDA;ARTUR BERNARDES;1580;;Vila Barragem Santa Lúcia;;;POINT (610332.969871381 7793117.34589981)
+200;Parque Jardim Montanhês;NATURAL;RUA;FLOR DA VERDADE;318;;Vila Jardim Montanhês;;;POINT (606317.23080184 7799429.50386518)
+201;Parque Professor Guilherme Lage;NATURAL;RUA;PADRE JOSE ALVES;665;;Vila São Paulo;;;POINT (612935.827115492 7802875.36997009)
+202;Velório Municipal Vicente Rodrigues de Paula;NATURAL;RUA;VICENTE DE AZEVEDO;393;;Barreiro;;;POINT (602007.787838078 7790582.74788656)
+203;Parque Ecológico Roberto Burle Marx;NATURAL;AVENIDA;XIMANGO;900;;Serra do Curral;;;POINT (604735.074041401 7788194.20094629)
+204;Parque Ecológico Roberto Burle Marx;NATURAL;RUA;JOSE DO MONTE;147;;Serra do Curral;;;POINT (605139.394725857 7788297.25046524)
+205;Parque Ecológico Francisco Lins do Rego;NATURAL;AVENIDA;OTACILIO NEGRAO DE LIMA;6061;;Lagoa da Pampulha;;;POINT (605353.064432508 7804470.98482015)
+206;Parque Ecológico Francisco Lins do Rego;NATURAL;AVENIDA;OTACILIO NEGRAO DE LIMA;7111;;Lagoa da Pampulha;;;POINT (605054.175512642 7803650.8604821)
+207;Parque Municipal Fazenda Lagoa do Nado;NATURAL;;;;;;;;POINT (608919.943075466 7806081.57095224)
+208;Parque Municipal Fazenda Lagoa do Nado;NATURAL;;;;;;;;POINT (608855.016477068 7805958.05683954)
+209;Parque Municipal Fazenda Lagoa do Nado;NATURAL;;;;;;;;POINT (608885.143464346 7805931.78558382)
+210;Parque Municipal Fazenda Lagoa do Nado;NATURAL;;;;;;;;POINT (609166.285111361 7805955.31208148)
+211;Parque Municipal Fazenda Lagoa do Nado;NATURAL;;;;;;;;POINT (609046.790108672 7806096.11163483)
+212;Parque Ecológico e de Lazer do Bairro Caiçara;NATURAL;;;;;;;;POINT (607498.730258599 7799699.66060267)
+213;Parque Ecológico e Cultural Professor Marcos Mazzoni;NATURAL;;;;;;;;POINT (613049.320735361 7800292.59376208)
+214;Parque Ecológico e Cultural Professor Marcos Mazzoni;NATURAL;;;;;;;;POINT (612907.518830356 7800330.40264873)
+215;Parque da Matinha;NATURAL;;;;;;;;POINT (613285.576850962 7800802.72447285)
+216;Parque do Bairro Jardim Leblon;NATURAL;;;;;;;;POINT (605884.639061485 7807993.27556211)
+217;Parque Cássia Eller;NATURAL;;;;;;;;POINT (605474.298194671 7801082.08345686)
+218;Parque Primeiro de Maio;NATURAL;;;;;;;;POINT (612047.690052076 7804211.29722131)
+219;Parque Fernão Dias;NATURAL;;;;;;;;POINT (613713.104009539 7802309.45996688)
+220;Parque Ecológico Universitário;NATURAL;;;;;;;;POINT (610598.06897709 7802948.0034471)
+1;Mineiraria Casa da Gastronomia;GASTRONOMIA E COMPRAS;RUA;UBERABA;865;;Barro Preto;n/a;;POINT (609154.023931854 7796283.61028665)
+2;Sala Minas Gerais;CULTURAL;RUA;TENENTE BRITO MELO;1090;;Barro Preto;"<a target=""_blank"" href=""https://filarmonica.art.br/"">https://filarmonica.art.br/</a>";;POINT (609230.212001596 7796226.02918923)
+3;Cemitério do Bonfim;CULTURAL;RUA;BONFIM;1120;;Bonfim;"<a target=""_blank"" href=""https://prefeitura.pbh.gov.br/fundacao-de-parques-e-zoobotanica/cemiterios/cemiterio-do-bonfim"">https://prefeitura.pbh.gov.br/fundacao-de-parques-e-zoobotanica/cemiterios/cemiterio-do-bonfim</a>";;POINT (609758.6358296 7798238.18221707)
+4;Museu de Ciências Morfológicas da UFMG;CULTURAL;AVENIDA;PRESIDENTE ANTONIO CARLOS;6627;;Campus UFMG;"<a target=""_blank"" href=""https://www.ufmg.br/rededemuseus/mcm/"">https://www.ufmg.br/rededemuseus/mcm/</a>";;POINT (609242.981956552 7802765.07078202)
+5;Estação Ecológica da UFMG;REALIZAÇÕES TEC. CIENTÍFICAS;AVENIDA;PRESIDENTE ANTONIO CARLOS;6627;;Campus UFMG;"<a target=""_blank"" href=""https://www.ufmg.br/cultura/?option=com_content&view=article&id=124&Itemid=129"">https://www.ufmg.br/cultura/?option=com_content&view=article&id=124&Itemid=129</a>";;POINT (609242.981956552 7802765.07078202)
+6;Aquário No Mundo das Águas;REALIZAÇÕES TEC. CIENTÍFICAS;RUA;MONTES CLAROS;322;;Carmo;"<a target=""_blank"" href=""http://www.nomundodasaguas.com.br"">http://www.nomundodasaguas.com.br</a>";;POINT (611715.077830639 7794344.22482081)
+7;Feira do Mineirinho;GASTRONOMIA E COMPRAS;AVENIDA;ANTONIO ABRAHAO CARAM;1000;;São Luíz;"<a target=""_blank"" href=""https://www.facebook.com/feiradomineirinho/"">https://www.facebook.com/feiradomineirinho/</a>";;POINT (607515.680520347 7803348.93405875)
+8;Museu Brasileiro do Futebol (MBF);CULTURAL;AVENIDA;ANTONIO ABRAHAO CARAM;1001;;São Luíz;"<a target=""_blank"" href=""http://estadiomineirao.com.br/"">http://estadiomineirao.com.br/</a>";;POINT (607698.881645377 7803136.84510844)
+9;Mineirão - Estádio Governador Magalhães Pinto;ENTRETENIMENTO E LAZER;AVENIDA;ANTONIO ABRAHAO CARAM;1001;;São Luíz;"<a target=""_blank"" href=""http://www.estadiomineirao.com.br"">http://www.estadiomineirao.com.br</a>";;POINT (607699.038316419 7803144.12362692)
+10;Parque Guanabara;ENTRETENIMENTO E LAZER;AVENIDA;OTACILIO NEGRAO DE LIMA;3333;;São Luíz;"<a target=""_blank"" href=""https://www.parqueguanabara.com/"">https://www.parqueguanabara.com/</a>";;POINT (606954.347872205 7803725.28533314)
+11;Mercado Central;GASTRONOMIA E COMPRAS;AVENIDA;AUGUSTO DE LIMA;744;;Centro;"<a target=""_blank"" href=""https://mercadocentral.com.br/"">https://mercadocentral.com.br/</a>";;POINT (610609.136947819 7796691.8269732)
+12;Mercado Novo;GASTRONOMIA E COMPRAS;AVENIDA;OLEGARIO MACIEL;742;;Centro;n/a;;POINT (610445.255613356 7796980.39862927)
+13;CâmaraSete- Casa da Fotografia de Minas Gerais;CULTURAL;AVENIDA;AFONSO PENA;737;;Centro;"<a target=""_blank"" href=""http://fcs.mg.gov.br"">http://fcs.mg.gov.br</a>";;POINT (611152.884988085 7797059.11251829)
+14;Sesc Palladium;CULTURAL;AVENIDA;AUGUSTO DE LIMA;420;;Centro;"<a target=""_blank"" href=""http://www.sescmg.com.br/wps/portal/sescmg/unidades/unidades_cultura/sesc_palladium"">http://www.sescmg.com.br/wps/portal/sescmg/unidades/unidades_cultura/sesc_palladium</a>";;POINT (610894.91032671 7796617.27917602)
+15;Museu Inimá de Paula;CULTURAL;RUA;DA BAHIA;1201;;Centro;"<a target=""_blank"" href=""http://www.museuinimadepaula.org.br"">http://www.museuinimadepaula.org.br</a>";;POINT (611206.193795758 7796432.08984194)
+16;Capela Nossa Senhora do Rosário;CULTURAL;RUA;SAO PAULO;759;;Centro;"<a target=""_blank"" href=""http://www.arquidiocesebh.org.br/catalogo/paroquia.php?id=277"">http://www.arquidiocesebh.org.br/catalogo/paroquia.php?id=277</a>";;POINT (610922.767635617 7796998.08463534)
+17;Centro Cultural UFMG;CULTURAL;AVENIDA;SANTOS DUMONT;174;;Centro;"<a target=""_blank"" href=""http://www.ufmg.br/centrocultural"">http://www.ufmg.br/centrocultural</a>";;POINT (611423.78513504 7797434.53579697)
+18;Complexo Casa do Conde (FUNARTE E IPHAN);CULTURAL;RUA;JANUARIA;68;;Centro;"<a target=""_blank"" href=""http://www.funarte.gov.br/regional/minas-gerais/"">http://www.funarte.gov.br/regional/minas-gerais/</a>";;POINT (611543.65497357 7797684.74486764)
+19;Conservatório UFMG;CULTURAL;AVENIDA;AFONSO PENA;1534;;Centro;"<a target=""_blank"" href=""http://www.conservatorio.ufmg.br"">http://www.conservatorio.ufmg.br</a>";;POINT (611499.754098539 7796343.24792545)
+20;Edifício Acaiaca;CULTURAL;AVENIDA;AFONSO PENA;867;;Centro;n/a;;POINT (611207.356459803 7796959.56247641)
+21;Igreja São José;CULTURAL;RUA;DOS TUPIS;164;;Centro;"<a target=""_blank"" href=""http://www.igrejasaojose.org.br/a-paroquia/"">http://www.igrejasaojose.org.br/a-paroquia/</a>";;POINT (611089.424394682 7796842.8362357)
+22;Museu de Artes e Ofícios;CULTURAL;PRACA;RUI BARBOSA;600;;Centro;"<a target=""_blank"" href=""http://www.maosesifiemg.com.br"">http://www.maosesifiemg.com.br</a>";;POINT (611648.030870669 7797398.78307433)
+23;Cine Theatro Brasil Vallourec;ENTRETENIMENTO E LAZER;RUA;DOS CARIJOS;258;;Centro;"<a target=""_blank"" href=""http://www.cinetheatrobrasil.com.br"">http://www.cinetheatrobrasil.com.br</a>";;POINT (611169.186446557 7797110.82168804)
+24;Palácio das Artes - Fundação Clóvis Salgado;ENTRETENIMENTO E LAZER;AVENIDA;AFONSO PENA;1537;;Centro;"<a target=""_blank"" href=""http://fcs.mg.gov.br/"">http://fcs.mg.gov.br/</a>";;POINT (611566.586666557 7796363.53379632)
+25;Feira dos Produtores;GASTRONOMIA E COMPRAS;AVENIDA;CRISTIANO MACHADO;1950;;Cidade Nova;"<a target=""_blank"" href=""https://feiradosprodutores.com.br/"">https://feiradosprodutores.com.br/</a>";;POINT (612164.31668672 7800283.69243162)
+26;Museu Giramundo;CULTURAL;RUA;VARGINHA;245;;Colégio Batista;"<a target=""_blank"" href=""http://www.giramundo.org"">http://www.giramundo.org</a>";;POINT (611286.706219464 7797934.56401767)
+27;Museu de Ciências Naturais - PUC Minas;CULTURAL;AVENIDA;DOM JOSE GASPAR;290;;Coração Eucarístico;"<a target=""_blank"" href=""http://portal.pucminas.br/museu_novo/destaques.php"">http://portal.pucminas.br/museu_novo/destaques.php</a>";;POINT (605685.444368564 7796792.29652291)
+28;Mercado Distrital do Cruzeiro;GASTRONOMIA E COMPRAS;RUA;OURO FINO;452;;Cruzeiro;"<a target=""_blank"" href=""https://www.facebook.com/mercadodistritaldocruzeiro"">https://www.facebook.com/mercadodistritaldocruzeiro</a>";;POINT (612388.82103053 7794586.52550121)
+29;Museu da Força Expedicionária Brasileira (FEB);CULTURAL;AVENIDA;FRANCISCO SALES;199;;Floresta;"<a target=""_blank"" href=""http://museus.cultura.gov.br/espaco/7417/"">http://museus.cultura.gov.br/espaco/7417/</a>";;POINT (611892.91595457 7797357.87140178)
+30;Museu dos Militares Mineiros;CULTURAL;RUA;DOS AIMORES;698;;Funcionários;"<a target=""_blank"" href=""https://www.mg.gov.br/servico/visitar-o-museu-dos-militares-mineiros"">https://www.mg.gov.br/servico/visitar-o-museu-dos-militares-mineiros</a>";;POINT (611896.577109438 7795907.13669463)
+31;Academia Mineira de Letras;CULTURAL;RUA;DA BAHIA;1466;;Lourdes;"<a target=""_blank"" href=""http://www.academiamineiradeletras.org.br"">http://www.academiamineiradeletras.org.br</a>";;POINT (611094.281196973 7796167.93361017)
+32;Espaço Cultural Escola de Design – UEMG;CULTURAL;RUA;GONCALVES DIAS;1400;;Lourdes;"<a target=""_blank"" href=""http://ed.uemg.br/extensao/espaco-cultural/"">http://ed.uemg.br/extensao/espaco-cultural/</a>";;POINT (611120.48423996 7795830.50078531)
