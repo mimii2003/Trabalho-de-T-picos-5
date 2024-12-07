@@ -206,7 +206,22 @@ body {
         justify-content: center;
     }
 }
-
+.nav1{
+    display: flex;
+    align-items: center;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.navbar-nav{
+    width: 100%;
+}
+.all-navs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .banner {
     position: relative;
     width: 100%;
