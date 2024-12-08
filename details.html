@@ -31,31 +31,445 @@
 
     <script>
         const places = [
-            {
-                name: "Museu de Artes e Ofícios",
-                description: "Horário: 9:00 - 17:00. Entrada: R$20",
-                imageUrl: "assets/image.png",
-                address: "Praça Rui Barbosa, Centro, BH",
-                category: "Cultural",
-                coordinates: { lat: -19.9167, lng: -43.9345 }
-            },
-            {
-                name: "Museu Clube da Esquina",
-                description: "Horário: 10:00 - 18:00. Entrada: R$15",
-                imageUrl: "assets/image copy.png",
-                address: "Rua Paraisópolis, Santa Tereza, BH",
-                category: "Entretenimento e Lazer",
-                coordinates: { lat: -19.9296, lng: -43.9221 }
-            },
-            {
-                name: "Palácio das Artes",
-                description: "Horário: 8:00 - 16:00. Entrada: Grátis",
-                imageUrl: "assets/image copy 2.png",
-                address: "Av. Afonso Pena, Centro, BH",
-                category: "Cultural",
-                coordinates: { lat: -19.9245, lng: -43.9378 }
-            }
-        ];
+    {
+        name: "Museu de Artes e Ofícios",
+        description: "Horário: 9:00 - 17:00. Entrada: R$20",
+        imageUrl: "assets/image.png",
+        address: "Praça Rui Barbosa, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9167, lng: -43.9345 }
+    },
+    {
+        name: "Museu Clube da Esquina",
+        description: "Horário: 10:00 - 18:00. Entrada: R$15",
+        imageUrl: "assets/image copy.png",
+        address: "Rua Paraisópolis, Santa Tereza, BH",
+        category: "Entretenimento e Lazer",
+        coordinates: { lat: -19.9296, lng: -43.9221 }
+    },
+    {
+        name: "Palácio das Artes",
+        description: "Horário: 8:00 - 16:00. Entrada: Grátis",
+        imageUrl: "assets/image copy 2.png",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9245, lng: -43.9378 }
+    },
+    {
+        name: "Biblioteca do Centro Cultural Bairro das Indústrias",
+        description: "Horário: 8:00 - 20:00. Entrada: Grátis",
+        address: "Av. das Indústrias, Bairro das Indústrias, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9290, lng: -43.9320 }
+    },
+    {
+        name: "Centro Cultural Jardim Guanabara",
+        description: "Horário: 9:00 - 19:00. Entrada: Grátis",
+        address: "Rua Frei Orlando, Jardim Guanabara, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.8703, lng: -43.9534 }
+    },
+    {
+        name: "Biblioteca do Centro Cultural Jardim Guanabara",
+        description: "Horário: 10:00 - 18:00. Entrada: Grátis",
+        address: "Rua Frei Orlando, Jardim Guanabara, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.8720, lng: -43.9540 }
+    },
+    {
+        name: "Centro Cultural Liberalino Alves de Oliveira",
+        description: "Horário: 9:00 - 18:00. Entrada: Grátis",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9200, lng: -43.9311 }
+    },
+    {
+        name: "Mineiraria Casa da Gastronomia",
+        description: "Horário: 11:00 - 22:00. Entrada: R$25",
+        imageUrl: "assets/image gastronomia.png",
+        address: "Av. Contagem, BH",
+        category: "Gastronomia",
+        coordinates: { lat: -19.9263, lng: -43.9365 }
+    },
+    {
+        name: "Sala Minas Gerais",
+        description: "Horário: Sob Consulta. Entrada: Grátis",
+        address: "Praça da Liberdade, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9300, lng: -43.9380 }
+    },
+    {
+        name: "Aquário No Mundo das Águas",
+        description: "Horário: 9:00 - 19:00. Entrada: R$30",
+        address: "Av. Amazonas, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9334, lng: -43.9340 }
+    },
+    {
+        name: "Museu Brasileiro do Futebol (MBF)",
+        description: "Horário: 10:00 - 18:00. Entrada: R$20",
+        address: "Estádio Mineirão, BH",
+        category: "Esportivo",
+        coordinates: { lat: -19.9165, lng: -43.9350 }
+    },
+    {
+        name: "Parque Guanabara",
+        description: "Horário: 8:00 - 22:00. Entrada: Grátis",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Parques",
+        coordinates: { lat: -19.9245, lng: -43.9378 }
+    },
+    {
+        name: "Mercado Central",
+        description: "Horário: 7:00 - 19:00. Entrada: Grátis",
+        address: "Av. Augusto de Lima, Centro, BH",
+        category: "Comércio",
+        coordinates: { lat: -19.9296, lng: -43.9390 }
+    },
+    {
+        name: "Sesc Palladium",
+        description: "Horário: 9:00 - 21:00. Entrada: Grátis",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9240, lng: -43.9317 }
+    },
+    {
+        name: "Museu Inimá de Paula",
+        description: "Horário: 10:00 - 18:00. Entrada: R$15",
+        address: "Rua da Bahia, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9300, lng: -43.9395 }
+    },
+    {
+        name: "Feira do Mineirinho",
+        description: "Horário: Sábados e Domingos. Entrada: Grátis",
+        address: "Av. Antônio Abrahão Caram, BH",
+        category: "Feiras",
+        coordinates: { lat: -19.9420, lng: -43.9700 }
+    },
+    {
+        name: "Cemitério do Bonfim",
+        description: "Horário: 24 horas. Entrada: Grátis",
+        address: "Av. Bonfim, Centro, BH",
+        category: "Histórico",
+        coordinates: { lat: -19.9225, lng: -43.9460 }
+    },
+    {
+        name: "Parque Linear do Vale do Arrudas",
+        description: "Horário: 6:00 - 20:00. Entrada: Grátis",
+        address: "Av. Assis Chateaubriand, BH",
+        category: "Parques",
+        coordinates: { lat: -19.8870, lng: -43.9650 }
+    },
+    {
+        name: "Centro Cultural UFMG",
+        description: "Horário: 9:00 - 18:00. Entrada: Grátis",
+        address: "Av. Presidente Antônio Carlos, Pampulha, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.8650, lng: -43.9380 }
+    },
+    {
+        name: "Parque das Mangabeiras",
+        description: "Horário: 8:00 - 20:00. Entrada: Grátis",
+        address: "Rua Mangabeiras, Mangabeiras, BH",
+        category: "Parques",
+        coordinates: { lat: -19.9020, lng: -43.9480 }
+    },
+    {
+        name: "Teatro Francisco Nunes",
+        description: "Horário: Variado. Entrada: R$10 a R$40",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9270, lng: -43.9340 }
+    },
+    {
+        name: "Espaço Cultural Escola de Design UEMG",
+        description: "Horário: 9:00 - 17:00. Entrada: Grátis",
+        address: "Rua Carangola, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9290, lng: -43.9330 }
+    },
+    {
+        name: "Academia Mineira de Letras",
+        description: "Horário: 9:00 - 18:00. Entrada: Grátis",
+        address: "Praça da Liberdade, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9305, lng: -43.9382 }
+    },
+    {
+        name: "Parque Ecológico Roberto Burle Marx",
+        description: "Horário: 7:00 - 20:00. Entrada: Grátis",
+        address: "Av. Afonso Pena, BH",
+        category: "Parques",
+        coordinates: { lat: -19.9040, lng: -43.9300 }
+    },
+    {
+        name: "Parque da Matinha",
+        description: "Horário: 6:00 - 20:00. Entrada: Grátis",
+        address: "Rua Matinha, Centro, BH",
+        category: "Parques",
+        coordinates: { lat: -19.8950, lng: -43.9500 }
+    },
+    {
+        name: "Parque José Lopes dos Reis",
+        description: "Horário: 6:00 - 22:00. Entrada: Grátis",
+        address: "Rua José Lopes dos Reis, Centro, BH",
+        category: "Parques",
+        coordinates: { lat: -19.8890, lng: -43.9390 }
+    },
+    {
+        name: "Jardim Zoológico",
+        description: "Horário: 9:00 - 18:00. Entrada: R$30",
+        address: "Av. Otacílio Negrão de Lima, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.8800, lng: -43.9560 }
+    },
+    {
+        name: "Parque Alexandre Brandt",
+        description: "Horário: 8:00 - 20:00. Entrada: Grátis",
+        address: "Rua Alexandre Brandt, BH",
+        category: "Parques",
+        coordinates: { lat: -19.9020, lng: -43.9290 }
+    },
+    {
+        name: "Centro Cultural Zilah Spósito",
+        description: "Horário: 9:00 - 19:00. Entrada: Grátis",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9260, lng: -43.9400 }
+    },
+    {
+        name: "Casa Fiat de Cultura",
+        description: "Horário: 10:00 - 18:00. Entrada: Grátis",
+        address: "Praça da Liberdade, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9305, lng: -43.9400 }
+    },
+    {
+        name: "Feira Tom Jobim",
+        description: "Horário: Sábados e Domingos. Entrada: Grátis",
+        address: "Av. Tom Jobim, BH",
+        category: "Feiras",
+        coordinates: { lat: -19.8910, lng: -43.9380 }
+    },
+    {
+        name: "Cemitério da Consolação",
+        description: "Horário: 24 horas. Entrada: Grátis",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Histórico",
+        coordinates: { lat: -19.9200, lng: -43.9380 }
+    },
+    {
+        name: "Parque da Vila Pantanal",
+        description: "Horário: 6:00 - 20:00. Entrada: Grátis",
+        address: "Rua Pantanal, BH",
+        category: "Parques",
+        coordinates: { lat: -19.8730, lng: -43.9610 }
+    },
+    {
+        name: "Parque Ecológico Pedro Machado",
+        description: "Horário: 8:00 - 20:00. Entrada: Grátis",
+        address: "Rua Pedro Machado, BH",
+        category: "Parques",
+        coordinates: { lat: -19.8900, lng: -43.9450 }
+    },
+    {
+        name: "Parque Linear Avenida José Cândido da Silveira",
+        description: "Horário: 8:00 - 20:00. Entrada: Grátis",
+        address: "Av. José Cândido da Silveira, BH",
+        category: "Parques",
+        coordinates: { lat: -19.9110, lng: -43.9400 }
+    },
+    {
+        name: "Parque Ecológico Universitário",
+        description: "Horário: 6:00 - 20:00. Entrada: Grátis",
+        address: "Universitário, BH",
+        category: "Parques",
+        coordinates: { lat: -19.8610, lng: -43.9480 }
+    },
+    {
+        name: "Museu Mineiro",
+        description: "Horário: Consulte local",
+        address: "Rua da Bahia, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9245, lng: -43.9430 }
+    },
+    {
+        name: "Arquivo Público Mineiro",
+        description: "Horário: Consulte local",
+        address: "Av. João Pinheiro, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9330, lng: -43.9390 }
+    },
+    {
+        name: "Basílica Nossa Senhora de Lourdes",
+        description: "Horário: Consulte local",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Religioso",
+        coordinates: { lat: -19.9230, lng: -43.9330 }
+    },
+    {
+        name: "Centro de Arte Popular - Cemig",
+        description: "Horário: Consulte local",
+        address: "Praça da Liberdade, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9300, lng: -43.9400 }
+    },
+    {
+        name: "Centro de Memória do Minas Tênis Clube",
+        description: "Horário: Consulte local",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Histórico",
+        coordinates: { lat: -19.8780, lng: -43.9390 }
+    },
+    {
+        name: "Rua do Amendoim",
+        description: "Horário: Consulte local",
+        address: "Centro, BH",
+        category: "Histórico",
+        coordinates: { lat: -19.9190, lng: -43.9300 }
+    },
+    {
+        name: "Mirante da Mata - Parque das Mangabeiras",
+        description: "Horário: Consulte local",
+        address: "Parque das Mangabeiras, BH",
+        category: "Parques",
+        coordinates: { lat: -19.9020, lng: -43.9560 }
+    },
+    {
+        name: "Museu da História da Inquisição",
+        description: "Horário: Consulte local",
+        address: "Rua da Bahia, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9245, lng: -43.9395 }
+    },
+    {
+        name: "Aquário da Bacia do Rio São Francisco - Fundação de Parques Municipais e Zoobotânica",
+        description: "Horário: Consulte local",
+        address: "Av. Afonso Pena, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9020, lng: -43.9500 }
+    },{
+        name: "Zoológico e Jardim Botânico - Fundação de Parques Municipais e Zoobotânica",
+        description: "Horário: Consulte local",
+        address: "Av. Otacílio Negrão de Lima, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.8800, lng: -43.9560 }
+    },
+    {
+        name: "Jardim Japonês - Fundação de Parques Municipais e Zoobotânica",
+        description: "Horário: Consulte local",
+        address: "Parque das Mangabeiras, BH",
+        category: "Parques",
+        coordinates: { lat: -19.8900, lng: -43.9600 }
+    },
+    {
+        name: "Feira Tom Jobim",
+        description: "Horário: Sábados e Domingos. Entrada: Grátis",
+        address: "Av. Tom Jobim, BH",
+        category: "Feiras",
+        coordinates: { lat: -19.8910, lng: -43.9380 }
+    },
+    {
+        name: "Cidade Administrativa de Minas Gerais - CAMG",
+        description: "Horário: Consulte local",
+        address: "Av. Raja Gabaglia, Belo Horizonte",
+        category: "Administrativo",
+        coordinates: { lat: -19.9200, lng: -43.9310 }
+    },
+    {
+        name: "Casa Fiat de Cultura",
+        description: "Horário: 10:00 - 18:00. Entrada: Grátis",
+        address: "Praça da Liberdade, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9305, lng: -43.9400 }
+    },
+    {
+        name: "Museu dos Brinquedos",
+        description: "Horário: Consulte local",
+        address: "Rua da Bahia, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9240, lng: -43.9390 }
+    },
+    {
+        name: "Biblioteca Pública Estadual de Minas Gerais",
+        description: "Horário: Consulte local",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9290, lng: -43.9390 }
+    },
+    {
+        name: "Centro Cultural Liberalino Alves de Oliveira",
+        description: "Horário: 9:00 - 18:00. Entrada: Grátis",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9260, lng: -43.9430 }
+    },
+    {
+        name: "Biblioteca do Centro Cultural Liberalino Alves de Oliveira",
+        description: "Horário: 10:00 - 18:00. Entrada: Grátis",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9265, lng: -43.9440 }
+    },
+    {
+        name: "Centro Cultural Lindeia Regina",
+        description: "Horário: 9:00 - 19:00. Entrada: Grátis",
+        address: "Av. Contagem, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9230, lng: -43.9340 }
+    },
+    {
+        name: "Biblioteca do Centro Cultural Lindeia Regina",
+        description: "Horário: 10:00 - 18:00. Entrada: Grátis",
+        address: "Av. Contagem, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.9240, lng: -43.9320 }
+    },
+    {
+        name: "Centro Cultural Padre Eustáquio",
+        description: "Horário: 9:00 - 18:00. Entrada: Grátis",
+        address: "Rua Padre Eustáquio, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.8690, lng: -43.9630 }
+    },
+    {
+        name: "Biblioteca do Centro Cultural Padre Eustáquio",
+        description: "Horário: 10:00 - 18:00. Entrada: Grátis",
+        address: "Rua Padre Eustáquio, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.8670, lng: -43.9620 }
+    },
+    {
+        name: "Centro Cultural Pampulha",
+        description: "Horário: 9:00 - 18:00. Entrada: Grátis",
+        address: "Avenida Otacílio Negrão de Lima, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.8830, lng: -43.9650 }
+    },
+    {
+        name: "Biblioteca do Centro Cultural Pampulha",
+        description: "Horário: 10:00 - 18:00. Entrada: Grátis",
+        address: "Avenida Otacílio Negrão de Lima, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.8840, lng: -43.9670 }
+    },
+    {
+        name: "Centro Cultural Salgado Filho",
+        description: "Horário: 9:00 - 18:00. Entrada: Grátis",
+        address: "Rua Salgado Filho, BH",
+        category: "Cultural",
+        coordinates: { lat: -19.8750, lng: -43.9380 }
+    },
+    {
+        name: "Mineiraria Casa da Gastronomia",
+        description: "Horário: 11:00 - 22:00. Entrada: R$25",
+        address: "Av. Afonso Pena, Centro, BH",
+        category: "Gastronomia",
+        coordinates: { lat: -19.9260, lng: -43.9395 }
+    },
+];
+
 
         const urlParams = new URLSearchParams(window.location.search);
         const placeName = decodeURIComponent(urlParams.get('place'));
