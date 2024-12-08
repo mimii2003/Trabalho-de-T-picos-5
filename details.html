@@ -481,7 +481,8 @@
                 <div class="card-body">
                     <h1 class="card-title text-gradient">${place.name}</h1>
                     <div class="image-container my-3">
-                        <img src="${place.imageUrl}" alt="${place.name}" class="img-fluid rounded shadow">
+                        
+                        <img src="${place?.imageUrl ? place?.imageUrl : 'bandeira.svg'}" alt="${place.name}" class="img-fluid rounded shadow">
                     </div>
                     <p class="text-muted">${place.description}</p>
                     <p><strong>Endereço:</strong> ${place.address}</p>
